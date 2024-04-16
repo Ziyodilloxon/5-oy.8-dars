@@ -1,0 +1,105 @@
+.container {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Deletebtn {
+  width: 280px;
+}
+
+.pic {
+  width: 300px;
+  width: 300px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+}
+
+#Div {
+  display: flex;
+  gap: 30px;
+}
+
+.formtag {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #232078;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.formtag input {
+  width: 180px;
+  height: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: 3px solid #000763;
+  background-color: inherit;
+  color: #ffffff;
+}
+.formtag label {
+  opacity: 0.6;
+  color: #9c9999;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#carList {
+  display: flex;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#carList img {
+  width: 300px;
+  height: 250px;
+}
+#carList button {
+  width: 280px;
+  height: 35px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #7e7e7e;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+  background-color: #e8e7fb;
+}
+#carList button:hover {
+  box-shadow: 5px 5px 12px 0 #6f6bde;
+  transition: all 0.5s ease;
+  background-color: #6f6bde;
+  color: #b5b3f4;
+}
+
+#Submitbtn {
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #7e7e7e;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+  background-color: #e8e7fb;
+}
+
+#Submitbtn:hover {
+  box-shadow: 5px 5px 12px 0 #6f6bde;
+  transition: all 0.5s ease;
+  background-color: #6f6bde;
+  color: #b5b3f4;
+}/*# sourceMappingURL=style.css.map */
